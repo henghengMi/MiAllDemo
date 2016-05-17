@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MiAddGlassesViewController">
+            <connections>
+                <outlet property="imageView" destination="VVa-Mp-alE" id="XOr-9S-0Dk"/>
+                <outlet property="view" destination="pbh-XZ-i1k" id="eA3-UE-nia"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pbh-XZ-i1k">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VVa-Mp-alE">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="0.98720468462023447" green="1" blue="0.63548901718519457" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VVa-Mp-alE" firstAttribute="leading" secondItem="pbh-XZ-i1k" secondAttribute="leading" id="Que-gp-l9z"/>
+                <constraint firstAttribute="bottom" secondItem="VVa-Mp-alE" secondAttribute="bottom" id="RGW-Sm-Gwe"/>
+                <constraint firstItem="VVa-Mp-alE" firstAttribute="top" secondItem="pbh-XZ-i1k" secondAttribute="top" id="Z4i-lK-oaS"/>
+                <constraint firstAttribute="trailing" secondItem="VVa-Mp-alE" secondAttribute="trailing" id="pCN-ht-QIi"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="VVa-Mp-alE"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Que-gp-l9z"/>
+                    <exclude reference="RGW-Sm-Gwe"/>
+                    <exclude reference="Z4i-lK-oaS"/>
+                    <exclude reference="pCN-ht-QIi"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="VVa-Mp-alE"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Que-gp-l9z"/>
+                    <include reference="RGW-Sm-Gwe"/>
+                    <include reference="Z4i-lK-oaS"/>
+                    <include reference="pCN-ht-QIi"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="817" y="225"/>
+        </view>
+    </objects>
+</document>
